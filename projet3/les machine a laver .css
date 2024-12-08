@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+}
+h1 {
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    margin-top: 30px;
+}
+table {
+    border: 3px solid royalblue;
+    width: 80%;
+    margin: 20 auto;
+}
+td {
+    border: 2px solid rgb(115, 139, 211);
+    padding: 10px;
+}
+td img {
+    width: 70%;
+}
+td p {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
+mark {
+color: rgb(0, 140, 255);
+background-color: rgb(126, 225, 215);
+}
+p strong {
+    font-size: 20px;
+    color: rgb(14, 153, 153);
+}
+ul , li {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.achat {
+    font-size: 13px;
+    color: rgb(25, 128, 93);
+    padding: 10px 15px;
+}
+.achat:hover{
+    background-color: rgb(172, 215, 245);
+}

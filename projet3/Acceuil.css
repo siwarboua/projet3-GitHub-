@@ -1,0 +1,64 @@
+body {
+    height: 100%;
+    background-color: rgb(218, 250, 238);
+}
+p strong{
+    font-size: 30px;
+    color: black;
+}
+#pa {
+font-size: 20px;
+color: rgb(19, 180, 46);
+font-weight: bold;
+}
+ul li {
+    font-size: 15px;
+    padding: 10px;
+    box-shadow: 0px 10px 10px rgb(201, 240, 186);
+    width: 80%;
+    display: flex;
+}
+#p1 strong {
+    color: rgb(25, 232, 97);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+  .navbar {
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(189, 246, 166);
+}
+.navbar .logo h1 {
+    color: rgb(57, 113, 9);
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+
+
+}
+.navbar .menu li a {
+    display: block;
+    margin-left: 20px;
+    color: rgb(1, 21, 16);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+}
+.navbar .menu li active {
+    border-bottom: 4px solid rgb(244, 41, 23);
+
+}
+.navbar .menu li a:hover {
+    border-bottom: 4px solid crimson;
+  

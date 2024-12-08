@@ -1,0 +1,81 @@
+body {
+    height: 100%;
+    background-color: beige;
+}
+
+#aa{
+    font-size: 30px;
+    color: rgba(194, 224, 28, 0.801); 
+}
+#aa:hover{
+    color: aquamarine;
+}
+#ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar {
+    padding: 10x 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0%;
+      background-color: rgb(239, 241, 170);
+  }
+  
+  .navbar .logo h1 {
+      color: rgb(159, 146, 27);
+      cursor: pointer;
+      font-weight: bold;
+  
+  }
+  .navbar .menu li {
+      list-style: none;
+      display: inline-block;
+  
+  }
+  .navbar .menu li a {
+      display: block;
+      margin-left: 20px;
+      color: rgb(1, 21, 16);
+      border-bottom: 4px solid transparent;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+  }
+  .navbar .menu li active {
+      border-bottom: 4px solid rgb(244, 41, 23);
+  }
+  .navbar .menu li a:hover {
+      border-bottom: 4px solid crimson;
+  }
+  img{
+    border-radius:10px ;
+    transition: transform;
+  }
+
+
+
+  .SAV h2{
+font-size: 35px;
+color: brown;
+font-style: italic;
+text-align: center;
+  }
+  .SAV p{
+font-size: 25px;
+font-weight: bold;
+text-decoration: underline solid rgba(194, 224, 28, 0.801);
+color: rgb(57, 85, 8);
+text-align: center;
+text-shadow:  rgb(142, 224, 133);
+  }
+  .SAV button{
+    box-shadow: 0px 5px 5px chocolate;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    
+    
+  }

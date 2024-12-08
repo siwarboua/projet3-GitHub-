@@ -1,0 +1,96 @@
+body {
+    height: 100%;
+    background-color: rgb(251, 253, 232);
+}
+.navbar {
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(239, 241, 170);
+}
+.navbar .logo h1 {
+    color: rgb(159, 146, 27);
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+
+}
+.navbar .menu li a {
+    display: block;
+    margin-left: 20px;
+    color: rgb(1, 21, 16);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar .menu li active {
+    border-bottom: 4px solid rgb(244, 41, 23);
+}
+.navbar .menu li a:hover {
+    border-bottom: 4px solid crimson;
+}
+.content {
+    background-image: url(shutterstock_1680805144.jpg) no-repeat;
+    background-size: cover;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #dc9222;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.content h1 {
+    font-size: 40px;
+}
+.content p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.content button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: rgb(210, 173, 11);
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pp h2 {
+font-size: 30px;
+color: rgb(96, 137, 52);
+}
+.pp {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(43, 74, 5);
+}
+
+.content img {
+    position: absolute;
+    left: 50%;
+    top: 47%;
+}
+#img {
+    width: 20%;
+    border: solid rgb(153, 164, 26);
+    flex: 2;
+}
+#hh{
+    color: #dc9222;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+

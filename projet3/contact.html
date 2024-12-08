@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><h1>Maison Electro</h1></div>
+        <ul class="menu">
+            <li><a href="Acceuil.html" class="active">Acceuil</a></li>
+            <li><a href="Produits.html">Produits</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <h2><center>"Ajoutez vos produits au panier et commandez en quelques clics !"</center></h2>
+
+    <form name="forme" methpde="post" action="traitement.php">
+        <label for="nom">Nom:</label>
+        <input type="text" placeholder="donner votre nom" id="nom">
+        <label for="prenom">Prénom:</label>
+        <input type="text" placeholder="donner votre prénom" name="prenom" id="prenom" size="50">
+        <br>
+        <br>
+        <label for="pass">votre mot de passe:</label>
+        <input type="password" placeholder="donner votre mot de passe" name="pass" id="pass">
+        <br> <br>
+        <label for="mail">Votre EMAIL</label>
+        <input type="email" placeholder="donner votre email">
+        <br> <br>
+       
+        <br>
+        <br>
+        <textarea rows="8" cols="38">VOTRE AVIS</textarea>
+        <br>
+        <br>
+        
+        <br>
+        <br>
+        <input type="checkbox" name="climatiseur" id="climatiseur"/>
+        <label for="climatiseur">Climatiseur</label><br>
+        <input type="checkbox" name="four" id="four"/>
+        <label for="four">Four</label><br>
+        <input type="checkbox" name="lave vaisselle" id="lave vesselle"/>
+        <label for="lave vesselle">Lave Vesselle</label><br>
+        <input type="checkbox" name="machine à laver" id="machine à laver"/>
+        <label for="machine à laver">Machine à Laver</label><br>
+        <input type="checkbox" name="réfrigérateur" id="réfrigérateur"/>
+        <label for="réfrigérateur">Réfrigérateur</label><br>
+        <input type="checkbox" name="téléviseur" id="téléviseur"/>
+        <label for="téléviseur">Téléviseur</label><br>
+        <input type="checkbox" name="petit éléctro" id="petit éléctro"/>
+        
+        <label for="petit éléctro">Petit Eléctro</label><br>
+        <input type="checkbox" name="plaque de cuisson" id="plaque de cuisson"/>
+        <label for="plaque de cuisson">Plaque De Cuisson</label>
+
+        <br> <br>
+        <input type="submit" name="envoyer" value="Submit">
+        <input type="reset" name="annuler" value="Annuler">
+    </form>
+    <h2><center>"Merci pour votre commande, elle sera expédiée sous peu !"</center></h2>
+    
+</body>
+</html>

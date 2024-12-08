@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #9b0c51;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border: 3px solid rgb(175, 23, 104);
+}
+
+ td {
+    border: 2px solid rgb(175, 23, 104);
+    padding: 10px;
+}
+
+ img {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+mark {
+    background-color: rgb(239, 149, 200);
+    color: #d716ae;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+ol {
+    font-size: 13px;
+    list-style-type: decimal;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+strong {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: #d716ae;
+}
+#achat {
+    background-color: rgb(242, 115, 191);
+}
+#achat:hover{
+    color:rgb(153, 32, 183);
+}
